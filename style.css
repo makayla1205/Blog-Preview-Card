@@ -1,0 +1,94 @@
+@font-face {
+    font-family: FigtreeRegular;
+    src: url(assets/fonts/Figtree-VariableFont_wght.ttf);
+ }
+ 
+ @font-face {
+    font-family: FigtreeItalic;
+    src: url(assets/fonts/Figtree-Italic-VariableFont_wght.ttf);
+    font-style: italic;
+ }
+
+ @font-face {
+    font-family: FigtreeBold;
+    src: url(assets/fonts/static/Figtree-SemiBold.ttf);
+    font-weight: bold;
+ }
+
+ @font-face {
+    font-family: FigtreeBolder;
+    src: url(assets/fonts/static/Figtree-ExtraBold.ttf);
+    font-weight: bolder;
+ }
+
+body {
+    background-color: hsl(47, 88%, 63%);
+    font-family: 'FigtreeRegular', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: hsl(0, 0%, 7%);
+}
+
+.outer-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    gap: 10px;
+}
+
+.inner-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 20px;
+    background-color: hsl(0, 0%, 100%);
+    width: 350px;
+    padding: 20px;
+    box-shadow: 8px 8px 0px hsl(0, 0%, 7%);
+}
+
+.text-container{
+    width: 100%;
+    margin: 20px 0px 0px;
+}
+
+.image {
+    width: 100%;
+}
+
+.image img {
+    width: 100%;
+    border-radius: 15px;
+}
+
+.badge {
+    display: inline;
+    background-color: hsl(47, 88%, 63%);
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.desc{
+    color: hsl(0, 0%, 50%);
+}
+
+.date{
+    font-size: 14px;
+}
+
+.avatar{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: start;
+    gap: 10px;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.avatar img {
+    height: 30px;
+}
